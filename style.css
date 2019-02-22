@@ -56,3 +56,7 @@ body {
 .soleil:hover {
 	filter: blur(0);
 }
+
+.ps:hover {
+	color: #5efc8d;
+}
