@@ -39,17 +39,17 @@ body {
 	color: red;
 }
 
-.galerie {
-	transform: scale(1.25);
+.galerie img:nth-child(n) {
+	transform: scale(1);
 	transition: .3s ease-in-out;
 }
 
-.galerie:hover {
-	transform: scale(1);
+.galerie img:nth-child(n):hover {
+	transform: scale(0.85);
 }
 
 .soleil {
-	filter: blur(3px);
+	filter: blur(5px);
 	transition: .3s ease-in-out;
 }
 
