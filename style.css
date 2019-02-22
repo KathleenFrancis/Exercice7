@@ -38,3 +38,21 @@ body {
 .couleur-liste {
 	color: red;
 }
+
+.galerie {
+	transform: scale(1.25);
+	transition: .3s ease-in-out;
+}
+
+.galerie:hover {
+	transform: scale(1);
+}
+
+.soleil {
+	filter: blur(3px);
+	transition: .3s ease-in-out;
+}
+
+.soleil:hover {
+	filter: blur(0);
+}
