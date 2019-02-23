@@ -29,10 +29,18 @@ body {
 	color: #8377d1;
 }
 
+.site-branding .site-title a:hover{
+	color: #78ccbf;
+}
+
 .site-branding .site-description {
 	font-size: 2vw;
 	background-color: #ccc;
 	margin: 10% 130%;
+}
+
+.entry-content p:nth-child(n):hover {
+	border-bottom: 1.5px solid #5efc8d;
 }
 
 .couleur-liste {
@@ -58,5 +66,6 @@ body {
 }
 
 .ps:hover {
-	color: #5efc8d;
+	color: #8377d1;
+	font-weight: bold;
 }
