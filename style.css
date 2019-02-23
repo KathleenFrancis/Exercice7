@@ -39,7 +39,7 @@ body {
 	margin: 10% 130%;
 }
 
-.entry-content p:nth-child(n):hover {
+.entry-content .p-article:nth-child(n):hover {
 	border-bottom: 1.5px solid #5efc8d;
 }
 
