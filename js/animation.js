@@ -5,7 +5,7 @@ window.addEventListener('load', function(){
     let sousTitre = document.querySelector('.site-description');
 
     titre.classList.add("animTitre");
-    //sousTitre.classList.add("animSousTitre");
+    sousTitre.classList.add("animSousTitre");
 
-    console.log(titre);
+    //console.log(titre);
 })
