@@ -404,5 +404,43 @@ template {
   }
 }
 
+.animPS {
+  -webkit-animation: ambiance 5s;
+          animation: ambiance 5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes ambiance {
+  from {
+    opacity: 0;
+    font-size: 0.8em;
+  }
+  50% {
+    font-size: 1em;
+  }
+  to {
+    opacity: 1;
+    font-size: 0.8em;
+  }
+}
+
+@keyframes ambiance {
+  from {
+    opacity: 0;
+    font-size: 0.8em;
+  }
+  50% {
+    font-size: 1em;
+  }
+  to {
+    opacity: 1;
+    font-size: 0.8em;
+  }
+}
+
 /* header */
 /*# sourceMappingURL=style.css.map */
