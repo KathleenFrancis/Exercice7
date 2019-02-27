@@ -1,0 +1,9 @@
+.animTitre{
+    /*color:red;*/
+    animation: entree 2s;
+}
+
+@keyframes entree {
+    from {opacity:0;}
+    to {opacity:1;}
+}
