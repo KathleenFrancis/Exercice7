@@ -378,10 +378,14 @@ template {
   from {
     opacity: 0;
     right: -300px;
+    color: white;
+    background-color: #ccc;
   }
   to {
     opacity: 1;
     right: 0px;
+    color: aquamarine;
+    background-color: #cccccc7a;
   }
 }
 
@@ -389,10 +393,14 @@ template {
   from {
     opacity: 0;
     right: -300px;
+    color: white;
+    background-color: #ccc;
   }
   to {
     opacity: 1;
     right: 0px;
+    color: aquamarine;
+    background-color: #cccccc7a;
   }
 }
 
